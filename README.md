@@ -23,7 +23,6 @@ MotoWeather is not just another weather app; it's a specialized weather dashboar
 
 ## 📸 Screenshots
 
-*(Drag and drop your screenshots here. For example:)*
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/16fbc1a8-e2e7-4237-af5c-7c57a44b877b" width="250" alt="MotoWeather Ekran 1" />
