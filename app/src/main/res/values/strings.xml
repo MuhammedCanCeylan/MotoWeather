@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">MotoWeather</string>
+
+    <string name="analiz_bekleniyor">Analiz Bekleniyor...</string>
+    <string name="veriler_bekleniyor">Veriler bekleniyor...</string>
+    <string name="konum_bulunuyor">Konum Bulunuyor...</string>
+    <string name="konum_bilinmiyor">BİLİNMEYEN KONUM</string>
+
+    <string name="label_sicaklik">Sıcaklık</string>
+    <string name="label_yagmur">Yağmur</string>
+    <string name="label_nem">Nem</string>
+    <string name="label_ruzgar">Rüzgar</string>
+    <string name="label_basinc">Basınç</string>
+    <string name="label_hissedilen">Hissedilen: %s</string>
+    <string name="format_min_max">Min: %1$s Maks: %2$s</string>
+
+    <string name="label_gun_dogumu">Gün Doğumu</string>
+    <string name="label_gun_batimi">Gün Batımı</string>
+    <string name="label_saatlik_tahmin">Saatlik Tahmin</string>
+    <string name="label_5_gunluk">5 Günlük Tahmin</string>
+
+    <string name="label_maks_ruzgar">Maks Rüzgar: %s</string>
+    <string name="label_yagis_ihtimali">Yağış: %s</string>
+
+    <string name="risk_tehlikeli_baslik">TEHLİKELİ</string>
+    <string name="risk_dikkat_baslik">DİKKATLİ OL</string>
+    <string name="risk_uygun_baslik">KEYİFLİ SÜRÜŞ</string> <string name="durum_yasak">YASAK</string>
+    <string name="durum_tehlike">TEHLİKE</string>
+    <string name="durum_riskli">RİSKLİ</string>
+    <string name="durum_dikkat">DİKKAT</string>
+    <string name="durum_uygun">UYGUN</string>
+
+    <string name="unit_c">°C</string>
+    <string name="unit_f">°F</string>
+    <string name="unit_kmh">km/s</string>
+    <string name="unit_mph">mph</string>
+
+    <string name="ayarlar_baslik">Ayarlar</string>
+    <string name="baslik_surus_seviyesi">Sürüş Seviyesi</string>
+    <string name="hint_duzenle">(Düzenlemek için karta basılı tutun)</string>
+
+    <string name="txt_duzenleniyor">Düzenlenen Profil:</string>
+    <string name="seviye_baslangic">Başlangıç</string>
+    <string name="seviye_orta">Orta</string>
+    <string name="seviye_ileri">İleri</string>
+
+    <string name="etiket_ruzgar_kisa">Rüzgar Limiti</string>
+    <string name="etiket_yagmur_kisa">Yağmur Limiti</string>
+    <string name="etiket_gorus_kisa">Görüş Mesafesi</string>
+
+    <string name="ayar_gece_izni">Gece Sürüş İzni</string>
+    <string name="ayar_buz_koruma">Buzlanma Koruması</string>
+    <string name="ayar_fahrenheit">Fahrenheit (°F)</string>
+    <string name="ayar_12saat">12 Saat Biçimi</string>
+    <string name="ayar_tema">Tema Modu</string>
+
+    <string name="tema_sistem">Sistem</string>
+    <string name="tema_acik">Açık</string>
+    <string name="tema_koyu">Koyu</string>
+
+    <string name="genel_ayarlar">Genel Ayarlar</string>
+    <string name="dil_secimi">Dil / Language</string>
+    <string name="bildirim_saati">Günlük Bildirim:</string>
+    <string name="yasak_saatler">Yasak Saatler</string>
+    <string name="baslangic">Başlangıç</string>
+    <string name="bitis">Bitiş</string>
+
+    <string name="kaydet_kapat">AYARLARI KAYDET</string>
+    <string name="ayarlari_sifirla">Sıfırla</string>
+    <string name="iptal">İptal</string>
+
+    <string name="hata_konum">Konum alınamadı, GPS açık mı?</string>
+    <string name="hata_veri">Veri Alınamadı</string>
+
+    <string-array name="msg_pool_tehlike">
+        <item>Müdür bugün motoru yatır, sen de yat uyu. Hava şakaya gelmez. 💀</item>
+        <item>Dışarısı kıyamet gibi. Arabayla git ya da evde kal. ⛈️</item>
+        <item>Lastikler buz tutar, rüzgar tokatlar. Bugün o gün değil. ❄️</item>
+    </string-array>
+
+    <string-array name="msg_pool_dikkat">
+        <item>Hava biraz nane molla. Dikkatli sür, viraja sert girme. ⚠️</item>
+        <item>Yerler kaygan olabilir, ön frene asılma aman diyim. 💧</item>
+        <item>Rüzgar biraz sarsabilir, gidonu sıkı tut ama kasma. 💨</item>
+    </string-array>
+
+    <string-array name="msg_pool_keyif">
+        <item>Yollar senin müdür! Gazla ve rüzgarı hisset. 🏍️💨</item>
+        <item>Tam piyasa havası, motoru parlat ve çık. Şeklin olsun. 😎</item>
+        <item>Lastikler yolu öper bugün. Virajların tadını çıkar. 🍩</item>
+    </string-array>
+
+    <string name="ekipman_full">Tam koruma şart. Yağmurluk ve termal içlik giy.</string>
+    <string name="ekipman_yagmurluk">Yanına yağmurluk al, montun astarını tak.</string>
+    <string name="ekipman_rahat">Standart ekipman yeterli. Kaskını ve eldivenini unutma.</string>
+    <string name="uyari_riskli">RİSKLİ!</string>
+
+    <string name="dialog_ikon_baslik">Hava Durumu İkonları</string>
+    <string name="desc_gunesli">Güneşli / Açık</string>
+    <string name="desc_parcali">Parçalı Bulutlu</string>
+    <string name="desc_bulutlu">Çok Bulutlu</string>
+    <string name="desc_yagmur">Yağmurlu</string>
+    <string name="desc_saganak">Sağanak Yağış</string>
+    <string name="desc_kar">Kar Yağışlı</string>
+    <string name="desc_firtina">Fırtına / Şimşek</string>
+    <string name="desc_sis">Sisli / Puslu</string>
+    <string name="btn_kapat">Kapat</string>
+
+
+
+    <string name="rehber_baslik">Hava Durumu İkon Rehberi</string>
+    <string name="rehber_anlasildi">ANLAŞILDI</string>
+
+    <string name="kat_gokyuzu">-- GÖKYÜZÜ --</string>
+    <string name="item_gunesli">☀️ A (Açık/Güneşli)</string>
+    <string name="item_acik_gece">🌕 A (Açık Gece)</string>
+    <string name="item_az_bulutlu">🌤️ AB (Az Bulutlu)</string>
+    <string name="item_az_bulutlu_gece">🌚 AB (Az Bulutlu Gece)</string>
+    <string name="item_parcali">⛅ PB (Parçalı Bulutlu)</string>
+    <string name="item_cok_bulutlu">☁️ CB (Çok Bulutlu/Kapalı)</string>
+
+    <string name="kat_yagmur">-- YAĞMUR &amp; SU --</string>
+    <string name="item_ciseleme">💧 HY (Çiseleme)</string>
+    <string name="item_yagmur">☔ Y (Yağmur)</string>
+    <string name="item_bulutlu_yagmur">🌧️ Y (Bulutlu Yağmur)</string>
+    <string name="item_gunesli_saganak">🌦️ MSY (Güneşli Sağanak)</string>
+    <string name="item_kuvvetli">⛈️ KY (Kuvvetli/Fırtınalı)</string>
+    <string name="item_sel">🌊 SY (Sel Riski/Su Baskını)</string>
+
+    <string name="kat_kis">-- KIŞ &amp; SOĞUK --</string>
+    <string name="item_kar">🌨️ K (Kar Yağışlı)</string>
+    <string name="item_kar_tanesi">❄️ K (Kar Tanesi)</string>
+    <string name="item_yogun_kar">☃️ KY (Yoğun Kar)</string>
+    <string name="item_dondurucu">🥶 SGK (Dondurucu Soğuk)</string>
+    <string name="item_buzlanma">🧊 B (Buzlanma/Don)</string>
+    <string name="item_tipi">🌬️ T (Tipi/Kar Fırtınası)</string>
+
+    <string name="kat_diger">-- DİĞER &amp; RİSKLER --</string>
+    <string name="item_sis">🌫️ SIS (Sisli)</string>
+    <string name="item_pus">🌁 PUS (Puslu Görüş)</string>
+    <string name="item_ruzgar">💨 R (Rüzgarlı)</string>
+    <string name="item_firtina">🌪️ F (Fırtına/Hortum)</string>
+    <string name="item_simsek">⚡ GSY (Yıldırım/Şimşek)</string>
+    <string name="item_asiri_sicak">🌡️ SCK (Aşırı Sıcak)</string>
+
+    <string name="lbl_dil_secenekleri">Dil Seçenekleri</string>
+    <string name="lbl_gece_surus_yasagi">Gece Sürüşü Yasak</string>
+    <string name="lbl_gunluk_bildirim">Günlük Bildirim Saati</string>
+
+    <string name="baslik_baslangic_saati">Başlangıç Saati (Akşam)</string>
+    <string name="baslik_bitis_saati">Bitiş Saati (Sabah)</string>
+    <string name="baslik_bildirim_saati">Bildirim Saati</string>
+
+    <string name="panel_duzenlenen">Düzenlenen: %s</string>
+    <string name="panel_ruzgar">Rüzgar Limiti</string>
+    <string name="panel_yagmur">Yağmur Limiti</string>
+    <string name="panel_gorus">Görüş Limiti</string>
+    <string name="btn_kapat_panel">PANELİ KAPAT</string>
+
+
+    <string-array name="level_names">
+        <item>Başlangıç (Acemi)</item>
+        <item>Orta Seviye</item>
+        <item>İleri Seviye (Pro)</item>
+        <item>Özel (Kendi Ayarım)</item>
+    </string-array>
+
+    <string-array name="level_values">
+        <item>beginner</item>
+        <item>intermediate</item>
+        <item>expert</item>
+        <item>custom</item>
+    </string-array>
+
+    <string name="adv_title_danger">Maceraya Gerek Yok Kral</string>
+    <string name="adv_body_danger_general">Bu havada motor sürmek cesaret değil, delilik olur. Risk analizin TEHLİKELİ verdi. Bugünlük motoru yatır.</string>
+    <string name="adv_body_danger_wind">🌪️ Fırtına Kopuyor! Bu rüzgarda motor şeritte durmaz. Kesinlikle çıkma.</string>
+    <string name="adv_body_danger_ice">🧊 Yollar Buz Pisti! Gizli buzlanma riski yüksek. Sıcak çayını iç, keyfine bak.</string>
+    <string name="adv_body_danger_storm">⛈️ Kıyamet Kopuyor! Şiddetli yağmur ve rüzgar var. Hayatını riske atma.</string>
+
+    <string name="adv_title_safe">Tekerin Düz Bassın</string>
+    <string name="adv_title_cold_freeze">Lastikler Taşa Döndü 🥶</string>
+    <string name="adv_body_cold_freeze">⚠️ DİKKAT: Lastiklerin ısınmayacak! Asfalt tutuşu düşük, ani hareketlerden kaçın. İçlik ve pinlock şart.</string>
+
+    <string name="adv_title_cold">Sıkı Giyin Üşütürsün</string>
+    <string name="adv_body_cold">🧥 Hava serin. Boyunluk (Buff) takmayı unutma. Lastiklerin geç ısınır, dikkat et.</string>
+
+    <string name="adv_title_perfect">Tam Gazlama Havası! 🏍️</string>
+    <string name="adv_body_perfect">🌡️ Sıcaklık efsane. Ekipmanlarını giy, keyfini çıkar.</string>
+
+    <string name="adv_title_warm">Yazlıkları Çıkar</string>
+    <string name="adv_body_warm">☀️ Hava ısınıyor. Yazlık mont ve file eldiven tercih et. Vizörü açık tutma (böcek çarpabilir).</string>
+
+    <string name="adv_title_hot">Hava Yanıyor 🔥</string>
+    <string name="adv_body_hot">⚠️ Asfalt terleme yapabilir! Sakın tişörtle sürme. Bol su iç, güneş vizörünü indir.</string>
+
+    <string name="adv_title_wet">Islak Zemin Alarmı 🌧️</string>
+    <string name="adv_body_wet">🚧 ZEMİN ISLAK. Beyaz şeritlerden ve mazgallardan uzak dur. Yağmurluğunu giy.</string>
+    <string name="adv_body_wet_light">☁️ Hafif yağmur geçişi olabilir. İlk damlalar düştüğünde asfalt en kaygan halini alır, dikkat.</string>
+
+    <string name="adv_title_wind">Rüzgarla Güreşme 💨</string>
+    <string name="adv_body_wind_strong">💨 Rüzgar sert! Depoyu bacaklarınla sıkı kavra. Vücudunu gevşek bırak.</string>
+    <string name="adv_body_wind_light">🌬️ Hafif rüzgar var, montunun fermuarlarını tam çek.</string>
+
+    <string name="adv_suffix_night"> (Gece Modu)</string>
+    <string name="adv_body_night">🌙 Gece Sürüşü: Görünür ol (Reflektör). Şeffaf vizör tak. Çukurlara dikkat et.</string>
+    <string name="adv_body_wish">Yolun açık, depon dolu olsun!</string>
+
+    <string name="advice_scooter">Scooter ile keyifli sürüşler.</string>
+    <string name="advice_racing">Lastikleri ısıt, virajlar seni bekler!</string>
+    <string name="advice_touring">Uzun yol için harika bir hava.</string>
+    <string name="advice_cross">Araziye çıkmak için güzel gün.</string>
+    <string name="advice_standard">Hava güzel, ekipmanını giy ve çık.</string>
+    <string name="label_risk_haritasi">Günlük Sürüş Risk Haritası</string>
+
+
+
+    <string name="advice_naked">Naked motordasın, rüzgar seni yorabilir. Boynunu koru!</string>
+
+
+    <string name="setup_welcome">Hoş Geldin Şef! 🏍️</string>
+    <string name="setup_select_moto">Motorunu Seç:</string>
+    <string name="setup_select_level">Deneyim Seviyen:</string>
+    <string name="setup_complete">KURULUMU TAMAMLA</string>
+
+    <string name="dialog_reset_title">Ayarları Sıfırla?</string>
+    <string name="dialog_reset_message">Tüm ayarların varsayılana dönecek. Emin misin?</string>
+    <string name="btn_yes">EVET</string>
+    <string name="btn_no">HAYIR</string>
+
+    <string name="lvl_baslangic">Başlangıç</string>
+    <string name="lvl_orta">Orta</string>
+    <string name="lvl_ileri">İleri</string>
+
+    <string name="moto_scooter">Scooter</string>
+    <string name="moto_street">Street</string>
+    <string name="moto_racing">Racing</string>
+    <string name="moto_touring">Touring</string>
+    <string name="moto_adv">ADV</string>
+    <string name="durum_yukleniyor">Veriler alınıyor...</string>
+    <string name="durum_ekipman_info">Ekipman bilgisi...</string>
+    <string name="lbl_saat_yok">--:--</string>
+</resources>

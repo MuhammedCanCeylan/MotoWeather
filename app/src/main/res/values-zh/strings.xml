@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">MotoWeather</string>
+
+    <string name="analiz_bekleniyor">正在分析...</string>
+    <string name="veriler_bekleniyor">等待数据...</string>
+    <string name="konum_bulunuyor">正在定位...</string>
+    <string name="konum_bilinmiyor">未知位置</string>
+
+    <string name="label_sicaklik">温度</string>
+    <string name="label_yagmur">降雨</string>
+    <string name="label_nem">湿度</string>
+    <string name="label_ruzgar">风速</string>
+    <string name="label_basinc">气压</string>
+    <string name="label_hissedilen">体感: %s</string>
+    <string name="format_min_max">最低: %1$s 最高: %2$s</string>
+
+    <string name="label_gun_dogumu">日出</string>
+    <string name="label_gun_batimi">日落</string>
+    <string name="label_saatlik_tahmin">每小时预报</string>
+    <string name="label_5_gunluk">5天预报</string>
+
+    <string name="label_maks_ruzgar">最大风速: %s</string>
+    <string name="label_yagis_ihtimali">降水概率: %s</string>
+
+    <string name="risk_tehlikeli_baslik">危险</string>
+    <string name="risk_dikkat_baslik">小心</string>
+    <string name="risk_uygun_baslik">愉快骑行</string>
+    <string name="durum_yasak">禁止</string>
+    <string name="durum_tehlike">危险</string>
+    <string name="durum_riskli">高风险</string>
+    <string name="durum_dikkat">注意</string>
+    <string name="durum_uygun">适宜</string>
+
+    <string name="unit_c">°C</string>
+    <string name="unit_f">°F</string>
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_mph">mph</string>
+
+    <string name="ayarlar_baslik">设置</string>
+    <string name="baslik_surus_seviyesi">骑行等级</string>
+    <string name="hint_duzenle">(长按卡片进行编辑)</string>
+
+    <string name="txt_duzenleniyor">正在编辑:</string>
+    <string name="seviye_baslangic">新手</string>
+    <string name="seviye_orta">中级</string>
+    <string name="seviye_ileri">高级</string>
+
+    <string name="etiket_ruzgar_kisa">风速限制</string>
+    <string name="etiket_yagmur_kisa">降雨限制</string>
+    <string name="etiket_gorus_kisa">能见度</string>
+
+    <string name="ayar_gece_izni">允许夜间骑行</string>
+    <string name="ayar_buz_koruma">结冰保护</string>
+    <string name="ayar_fahrenheit">华氏度 (°F)</string>
+    <string name="ayar_12saat">12小时制</string>
+    <string name="ayar_tema">主题模式</string>
+
+    <string name="tema_sistem">系统默认</string>
+    <string name="tema_acik">浅色</string>
+    <string name="tema_koyu">深色</string>
+
+    <string name="genel_ayarlar">常规设置</string>
+    <string name="dil_secimi">语言 / Language</string>
+    <string name="bildirim_saati">每日通知:</string>
+    <string name="yasak_saatler">禁止时段</string>
+    <string name="baslangic">开始</string>
+    <string name="bitis">结束</string>
+
+    <string name="kaydet_kapat">保存设置</string>
+    <string name="ayarlari_sifirla">重置</string>
+    <string name="iptal">取消</string>
+
+    <string name="hata_konum">未找到位置，GPS开启了吗？</string>
+    <string name="hata_veri">无法获取数据</string>
+
+    <string-array name="msg_pool_tehlike">
+        <item>兄弟，今天把车停好吧，你也休息下。这天气不开玩笑。 💀</item>
+        <item>外面像世界末日一样。开车去或者待在家里。 ⛈️</item>
+        <item>轮胎会结冰，大风会把你吹飞。今天不是骑车的好日子。 ❄️</item>
+    </string-array>
+
+    <string-array name="msg_pool_dikkat">
+        <item>天气有点不稳定。小心驾驶，不要急转弯。 ⚠️</item>
+        <item>地面可能湿滑，前刹车要轻点，千万小心。 💧</item>
+        <item>风可能会晃动车身，抓紧车把但不要太僵硬。 💨</item>
+    </string-array>
+
+    <string-array name="msg_pool_keyif">
+        <item>路是你的，兄弟！拧油门，感受风的自由。 🏍️💨</item>
+        <item>完美的天气，把车擦亮出门吧。帅气登场。 😎</item>
+        <item>今天轮胎抓地力超棒。享受弯道吧。 🍩</item>
+    </string-array>
+
+    <string name="ekipman_full">必须全套防护。穿雨衣和保暖内衣。</string>
+    <string name="ekipman_yagmurluk">带上雨衣，装上外套内胆。</string>
+    <string name="ekipman_rahat">标准装备足够。别忘了头盔和手套。</string>
+    <string name="uyari_riskli">有风险！</string>
+
+    <string name="dialog_ikon_baslik">天气图标</string>
+    <string name="desc_gunesli">晴朗</string>
+    <string name="desc_parcali">局部多云</string>
+    <string name="desc_bulutlu">多云/阴天</string>
+    <string name="desc_yagmur">有雨</string>
+    <string name="desc_saganak">阵雨</string>
+    <string name="desc_kar">下雪</string>
+    <string name="desc_firtina">风暴/雷电</string>
+    <string name="desc_sis">雾/霾</string>
+    <string name="btn_kapat">关闭</string>
+
+    <string name="rehber_baslik">图标指南</string>
+    <string name="rehber_anlasildi">明白了</string>
+
+    <string name="kat_gokyuzu">-- 天空 --</string>
+    <string name="item_gunesli">☀️ 晴 (晴朗)</string>
+    <string name="item_acik_gece">🌕 晴 (晴朗夜晚)</string>
+    <string name="item_az_bulutlu">🌤️ 少云 (少云)</string>
+    <string name="item_az_bulutlu_gece">🌚 少云 (少云夜晚)</string>
+    <string name="item_parcali">⛅ 多云 (局部多云)</string>
+    <string name="item_cok_bulutlu">☁️ 阴 (阴天)</string>
+
+    <string name="kat_yagmur">-- 降雨 --</string>
+    <string name="item_ciseleme">💧 毛毛雨</string>
+    <string name="item_yagmur">☔ 雨 (中雨)</string>
+    <string name="item_bulutlu_yagmur">🌧️ 阴雨</string>
+    <string name="item_gunesli_saganak">🌦️ 太阳雨</string>
+    <string name="item_kuvvetli">⛈️ 暴雨</string>
+    <string name="item_sel">🌊 洪水风险</string>
+
+    <string name="kat_kis">-- 冬季 --</string>
+    <string name="item_kar">🌨️ 雪 (降雪)</string>
+    <string name="item_kar_tanesi">❄️ 雪花</string>
+    <string name="item_yogun_kar">☃️ 大雪</string>
+    <string name="item_dondurucu">🥶 严寒</string>
+    <string name="item_buzlanma">🧊 结冰/霜冻</string>
+    <string name="item_tipi">🌬️ 暴风雪</string>
+
+    <string name="kat_diger">-- 其他 --</string>
+    <string name="item_sis">🌫️ 雾</string>
+    <string name="item_pus">🌁 霾</string>
+    <string name="item_ruzgar">💨 大风</string>
+    <string name="item_firtina">🌪️ 风暴/龙卷风</string>
+    <string name="item_simsek">⚡ 雷电</string>
+    <string name="item_asiri_sicak">🌡️ 极热</string>
+
+    <string name="lbl_dil_secenekleri">语言选项</string>
+    <string name="lbl_gece_surus_yasagi">夜间骑行禁止</string>
+    <string name="lbl_gunluk_bildirim">每日通知时间</string>
+
+    <string name="baslik_baslangic_saati">开始时间 (晚上)</string>
+    <string name="baslik_bitis_saati">结束时间 (早上)</string>
+    <string name="baslik_bildirim_saati">通知时间</string>
+
+    <string name="panel_duzenlenen">已编辑: %s</string>
+    <string name="panel_ruzgar">风速限制</string>
+    <string name="panel_yagmur">降雨限制</string>
+    <string name="panel_gorus">能见度限制</string>
+    <string name="btn_kapat_panel">关闭面板</string>
+
+    <string-array name="level_names">
+        <item>新手 (菜鸟)</item>
+        <item>中级</item>
+        <item>高级 (专家)</item>
+        <item>自定义</item>
+    </string-array>
+
+    <string-array name="level_values">
+        <item>beginner</item>
+        <item>intermediate</item>
+        <item>expert</item>
+        <item>custom</item>
+    </string-array>
+
+    <string name="adv_title_danger">无需冒险，冠军</string>
+    <string name="adv_body_danger_general">这种天气骑车不是勇敢，是疯狂。风险分析显示“危险”。今天把车停好吧。</string>
+    <string name="adv_body_danger_wind">🌪️ 风暴来袭！这种风速下车子很难保持直线。绝对不要出门。</string>
+    <string name="adv_body_danger_ice">🧊 道路结冰！暗冰风险很高。喝杯热茶，享受生活吧。</string>
+    <string name="adv_body_danger_storm">⛈️ 简直是灾难片！狂风暴雨。不要拿生命冒险。</string>
+
+    <string name="adv_title_safe">一路平安</string>
+    <string name="adv_title_cold_freeze">轮胎硬得像石头 🥶</string>
+    <string name="adv_body_cold_freeze">⚠️ 注意：轮胎热不起来！抓地力很低，避免突然的动作。必须穿保暖内衣和防雾片。</string>
+
+    <string name="adv_title_cold">穿暖和点，不然会感冒</string>
+    <string name="adv_body_cold">🧥 天气凉。别忘了戴护颈（Buff）。轮胎热得慢，小心。</string>
+
+    <string name="adv_title_perfect">完美的骑行天气！ 🏍️</string>
+    <string name="adv_body_perfect">🌡️ 温度太棒了。穿好装备，享受吧。</string>
+
+    <string name="adv_title_warm">换上夏季装备</string>
+    <string name="adv_body_warm">☀️ 天气变暖。选择夏季夹克和网眼手套。不要一直开着面罩（小心虫子）。</string>
+
+    <string name="adv_title_hot">天气热爆了 🔥</string>
+    <string name="adv_body_hot">⚠️ 沥青可能会融化！千万不要穿T恤骑车。多喝水，放下遮阳镜。</string>
+
+    <string name="adv_title_wet">湿滑路面警报 🌧️</string>
+    <string name="adv_body_wet">🚧 地面湿滑。远离白线和井盖。穿上你的雨衣。</string>
+    <string name="adv_body_wet_light">☁️ 可能有小雨。第一滴雨落下时沥青最滑，小心。</string>
+
+    <string name="adv_title_wind">不要和风对抗 💨</string>
+    <string name="adv_body_wind_strong">💨 风很大！用膝盖夹紧油箱。身体保持放松。</string>
+    <string name="adv_body_wind_light">🌬️ 有微风，把外套拉链全拉上。</string>
+
+    <string name="adv_suffix_night"> (夜间模式)</string>
+    <string name="adv_body_night">🌙 夜间骑行：保持可见（反光条）。使用透明面罩。小心坑洼。</string>
+    <string name="adv_body_wish">祝你一路顺风，油箱满满！</string>
+
+    <string name="advice_scooter">骑上踏板去兜风吧，享受骑行。</string>
+    <string name="advice_racing">暖好轮胎，弯道在等你挑战！</string>
+    <string name="advice_touring">长途摩旅的绝佳天气。</string>
+    <string name="advice_cross">去跑林道越野的好日子。</string>
+    <string name="advice_standard">天气不错，穿好装备出发吧。</string>
+    <string name="label_risk_haritasi">每日驾驶风险地图</string>
+
+
+    <string name="advice_naked">街车风阻大，注意颈部保暖，小心疲劳。</string>
+
+</resources>

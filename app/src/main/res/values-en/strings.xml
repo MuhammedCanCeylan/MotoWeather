@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">MotoWeather</string>
+
+    <string name="analiz_bekleniyor">Analyzing...</string>
+    <string name="veriler_bekleniyor">Waiting for data...</string>
+    <string name="konum_bulunuyor">Locating...</string>
+    <string name="konum_bilinmiyor">UNKNOWN LOCATION</string>
+
+    <string name="label_sicaklik">Temperature</string>
+    <string name="label_yagmur">Rain</string>
+    <string name="label_nem">Humidity</string>
+    <string name="label_ruzgar">Wind</string>
+    <string name="label_basinc">Pressure</string>
+    <string name="label_hissedilen">Feels Like: %s</string>
+    <string name="format_min_max">Min: %1$s Max: %2$s</string>
+
+    <string name="label_gun_dogumu">Sunrise</string>
+    <string name="label_gun_batimi">Sunset</string>
+    <string name="label_saatlik_tahmin">Hourly Forecast</string>
+    <string name="label_5_gunluk">5-Day Forecast</string>
+
+    <string name="label_maks_ruzgar">Max Wind: %s</string>
+    <string name="label_yagis_ihtimali">Precipitation: %s</string>
+
+    <string name="risk_tehlikeli_baslik">DANGEROUS</string>
+    <string name="risk_dikkat_baslik">BE CAREFUL</string>
+    <string name="risk_uygun_baslik">JOYFUL RIDE</string>
+    <string name="durum_yasak">FORBIDDEN</string>
+    <string name="durum_tehlike">DANGER</string>
+    <string name="durum_riskli">RISKY</string>
+    <string name="durum_dikkat">CAUTION</string>
+    <string name="durum_uygun">SUITABLE</string>
+
+    <string name="unit_c">°C</string>
+    <string name="unit_f">°F</string>
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_mph">mph</string>
+
+    <string name="ayarlar_baslik">Settings</string>
+    <string name="baslik_surus_seviyesi">Riding Level</string>
+    <string name="hint_duzenle">(Press and hold card to edit)</string>
+
+    <string name="txt_duzenleniyor">Editing Profile:</string>
+    <string name="seviye_baslangic">Beginner</string>
+    <string name="seviye_orta">Intermediate</string>
+    <string name="seviye_ileri">Advanced</string>
+
+    <string name="etiket_ruzgar_kisa">Wind Limit</string>
+    <string name="etiket_yagmur_kisa">Rain Limit</string>
+    <string name="etiket_gorus_kisa">Visibility</string>
+
+    <string name="ayar_gece_izni">Allow Night Riding</string>
+    <string name="ayar_buz_koruma">Ice Protection</string>
+    <string name="ayar_fahrenheit">Fahrenheit (°F)</string>
+    <string name="ayar_12saat">12-Hour Format</string>
+    <string name="ayar_tema">Theme Mode</string>
+
+    <string name="tema_sistem">System</string>
+    <string name="tema_acik">Light</string>
+    <string name="tema_koyu">Dark</string>
+
+    <string name="genel_ayarlar">General Settings</string>
+    <string name="dil_secimi">Language</string>
+    <string name="bildirim_saati">Daily Notification:</string>
+    <string name="yasak_saatler">Forbidden Hours</string>
+    <string name="baslangic">Start</string>
+    <string name="bitis">End</string>
+
+    <string name="kaydet_kapat">SAVE SETTINGS</string>
+    <string name="ayarlari_sifirla">Reset</string>
+    <string name="iptal">Cancel</string>
+
+    <string name="hata_konum">Location not found, is GPS on?</string>
+    <string name="hata_veri">Data Not Received</string>
+
+    <string-array name="msg_pool_tehlike">
+        <item>Buddy, park the bike and get some sleep. Weather is no joke today. 💀</item>
+        <item>It looks like doomsday outside. Take the car or stay home. ⛈️</item>
+        <item>Tires will freeze, wind will slap you. Today is not the day. ❄️</item>
+    </string-array>
+
+    <string-array name="msg_pool_dikkat">
+        <item>Weather is a bit iffy. Ride carefully, don\'t corner hard. ⚠️</item>
+        <item>Roads might be slippery, go easy on the front brake! 💧</item>
+        <item>Wind might shake you a bit, hold the bars tight but relax your arms. 💨</item>
+    </string-array>
+
+    <string-array name="msg_pool_keyif">
+        <item>Roads are yours, buddy! Throttle out and feel the wind. 🏍️💨</item>
+        <item>Perfect weather, polish the bike and ride out. Look sharp. 😎</item>
+        <item>Tires kiss the road today. Enjoy the curves. 🍩</item>
+    </string-array>
+
+    <string name="ekipman_full">Full protection required. Wear rain gear and thermal base layers.</string>
+    <string name="ekipman_yagmurluk">Take a raincoat, attach the jacket liner.</string>
+    <string name="ekipman_rahat">Standard gear is enough. Don\'t forget helmet and gloves.</string>
+    <string name="uyari_riskli">RISKY!</string>
+
+    <string name="dialog_ikon_baslik">Weather Icons</string>
+    <string name="desc_gunesli">Sunny / Clear</string>
+    <string name="desc_parcali">Partly Cloudy</string>
+    <string name="desc_bulutlu">Overcast</string>
+    <string name="desc_yagmur">Rainy</string>
+    <string name="desc_saganak">Heavy Rain</string>
+    <string name="desc_kar">Snowy</string>
+    <string name="desc_firtina">Storm / Thunder</string>
+    <string name="desc_sis">Foggy / Misty</string>
+    <string name="btn_kapat">Close</string>
+
+    <string name="rehber_baslik">Icon Guide</string>
+    <string name="rehber_anlasildi">GOT IT</string>
+
+    <string name="kat_gokyuzu">-- SKY --</string>
+    <string name="item_gunesli">☀️ C (Clear/Sunny)</string>
+    <string name="item_acik_gece">🌕 C (Clear Night)</string>
+    <string name="item_az_bulutlu">🌤️ FC (Few Clouds)</string>
+    <string name="item_az_bulutlu_gece">🌚 FC (Few Clouds Night)</string>
+    <string name="item_parcali">⛅ PC (Partly Cloudy)</string>
+    <string name="item_cok_bulutlu">☁️ OC (Overcast)</string>
+
+    <string name="kat_yagmur">-- RAIN &amp; WATER --</string>
+    <string name="item_ciseleme">💧 DZ (Drizzle)</string>
+    <string name="item_yagmur">☔ R (Rain)</string>
+    <string name="item_bulutlu_yagmur">🌧️ CR (Cloudy Rain)</string>
+    <string name="item_gunesli_saganak">🌦️ SH (Sun Shower)</string>
+    <string name="item_kuvvetli">⛈️ STR (Storm/Heavy)</string>
+    <string name="item_sel">🌊 FL (Flood Risk)</string>
+
+    <string name="kat_kis">-- WINTER &amp; COLD --</string>
+    <string name="item_kar">🌨️ SN (Snow)</string>
+    <string name="item_kar_tanesi">❄️ SF (Snow Flake)</string>
+    <string name="item_yogun_kar">☃️ HS (Heavy Snow)</string>
+    <string name="item_dondurucu">🥶 FRZ (Freezing)</string>
+    <string name="item_buzlanma">🧊 ICE (Ice/Frost)</string>
+    <string name="item_tipi">🌬️ BLZ (Blizzard)</string>
+
+    <string name="kat_diger">-- OTHER &amp; RISKS --</string>
+    <string name="item_sis">🌫️ FOG (Foggy)</string>
+    <string name="item_pus">🌁 MIST (Misty)</string>
+    <string name="item_ruzgar">💨 W (Windy)</string>
+    <string name="item_firtina">🌪️ STM (Storm/Tornado)</string>
+    <string name="item_simsek">⚡ LNG (Lightning)</string>
+    <string name="item_asiri_sicak">🌡️ HOT (Extreme Heat)</string>
+
+    <string name="lbl_dil_secenekleri">Language Options</string>
+    <string name="lbl_gece_surus_yasagi">Night Riding Forbidden</string>
+    <string name="lbl_gunluk_bildirim">Daily Notification Time</string>
+
+    <string name="baslik_baslangic_saati">Start Time (Evening)</string>
+    <string name="baslik_bitis_saati">End Time (Morning)</string>
+    <string name="baslik_bildirim_saati">Notification Time</string>
+
+    <string name="panel_duzenlenen">Edited: %s</string>
+    <string name="panel_ruzgar">Wind Limit</string>
+    <string name="panel_yagmur">Rain Limit</string>
+    <string name="panel_gorus">Visibility Limit</string>
+    <string name="btn_kapat_panel">CLOSE PANEL</string>
+
+    <string-array name="level_names">
+        <item>Beginner (Rookie)</item>
+        <item>Intermediate</item>
+        <item>Advanced (Pro)</item>
+        <item>Custom (My Settings)</item>
+    </string-array>
+
+    <string-array name="level_values">
+        <item>beginner</item>
+        <item>intermediate</item>
+        <item>expert</item>
+        <item>custom</item>
+    </string-array>
+
+    <string name="adv_title_danger">No Need for Adventure, Champ</string>
+    <string name="adv_body_danger_general">Riding in this weather isn\'t courage, it\'s madness. Risk analysis says DANGEROUS. Park the bike today.</string>
+    <string name="adv_body_danger_wind">🌪️ Storm Incoming! The bike won\'t stay in the lane with this wind. Do not go out.</string>
+    <string name="adv_body_danger_ice">🧊 Roads are Ice Rinks! High risk of black ice. Drink tea, stay safe.</string>
+    <string name="adv_body_danger_storm">⛈️ Apocalypse Now! Heavy rain and wind. Don\'t risk your life.</string>
+
+    <string name="adv_title_safe">Ride Safe</string>
+    <string name="adv_title_cold_freeze">Tires Turned to Stone 🥶</string>
+    <string name="adv_body_cold_freeze">⚠️ ATTENTION: Tires won\'t warm up! Grip is low, avoid sudden moves. Thermals and pinlock required.</string>
+
+    <string name="adv_title_cold">Bundle Up or Freeze</string>
+    <string name="adv_body_cold">🧥 It\'s chilly. Don\'t forget your neck gaiter (Buff). Tires warm up slowly, watch out.</string>
+
+    <string name="adv_title_perfect">Perfect Riding Weather! 🏍️</string>
+    <string name="adv_body_perfect">🌡️ Temperature is legendary. Gear up and enjoy.</string>
+
+    <string name="adv_title_warm">Get the Summer Gear</string>
+    <string name="adv_body_warm">☀️ It\'s warming up. Choose summer jacket and mesh gloves. Keep visor down (bugs).</string>
+
+    <string name="adv_title_hot">Weather is Burning 🔥</string>
+    <string name="adv_body_hot">⚠️ Asphalt might bleed! Don\'t ride in a t-shirt. Drink water, use sun visor.</string>
+
+    <string name="adv_title_wet">Wet Surface Alarm 🌧️</string>
+    <string name="adv_body_wet">🚧 WET SURFACE. Stay away from white lines and manhole covers. Wear your rain gear.</string>
+    <string name="adv_body_wet_light">☁️ Light rain passing. Asphalt is most slippery when first drops fall, be careful.</string>
+
+    <string name="adv_title_wind">Don\'t Wrestle the Wind 💨</string>
+    <string name="adv_body_wind_strong">💨 Strong wind! Grip the tank with your knees. Keep your body loose.</string>
+    <string name="adv_body_wind_light">🌬️ Light wind, zip up your jacket fully.</string>
+
+    <string name="adv_suffix_night"> (Night Mode)</string>
+    <string name="adv_body_night">🌙 Night Ride: Be visible (Reflective). Use clear visor. Watch for potholes.</string>
+    <string name="adv_body_wish">May your road be open and tank full!</string>
+
+    <string name="advice_scooter">Have a fun ride on your scooter.</string>
+    <string name="advice_racing">Warm up the tires, the corners are calling!</string>
+    <string name="advice_touring">Perfect weather for a long road trip.</string>
+    <string name="advice_cross">Great day to hit the dirt.</string>
+    <string name="advice_standard">Nice weather, gear up and ride.</string>
+
+    <string name="label_risk_haritasi">Daily Risk Map</string>
+
+
+    <string name="advice_naked">You are on a Naked bike, wind can tire you. Protect your neck!</string>
+
+
+    <string name="setup_welcome">Welcome Chief! 🏍️</string>
+    <string name="setup_select_moto">Select Your Bike:</string>
+    <string name="setup_select_level">Experience Level:</string>
+    <string name="setup_complete">COMPLETE SETUP</string>
+
+    <string name="dialog_reset_title">Reset Settings?</string>
+    <string name="dialog_reset_message">All your settings will return to default. Are you sure?</string>
+    <string name="btn_yes">YES</string>
+    <string name="btn_no">NO</string>
+
+    <string name="lvl_baslangic">Beginner</string>
+    <string name="lvl_orta">Medium</string>
+    <string name="lvl_ileri">Pro</string>
+
+    <string name="moto_scooter">Scooter</string>
+    <string name="moto_street">Street</string>
+    <string name="moto_racing">Racing</string>
+    <string name="moto_touring">Touring</string>
+    <string name="moto_adv">ADV</string>
+    <string name="durum_yukleniyor">Fetching data...</string>
+    <string name="durum_ekipman_info">Equipment info...</string>
+    <string name="lbl_saat_yok">--:--</string>
+
+
+</resources>

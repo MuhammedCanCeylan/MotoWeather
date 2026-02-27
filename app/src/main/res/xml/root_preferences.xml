@@ -1,0 +1,44 @@
+<androidx.preference.PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Sürücü Profili">
+
+        <ListPreference
+            android:key="pref_rider_level"
+            android:title="Deneyim Seviyesi"
+            android:summary="Seviyene göre limitler otomatik belirlenir"
+            android:defaultValue="custom"
+            android:entries="@array/level_names"
+            android:entryValues="@array/level_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Manuel Limitler (Özel Seçilirse)">
+
+        <EditTextPreference
+            android:key="pref_wind_limit"
+            android:title="Maksimum Rüzgar (km/h)"
+            android:defaultValue="25"
+            android:inputType="number" />
+
+        <EditTextPreference
+            android:key="pref_rain_limit"
+            android:title="Maksimum Yağış (mm)"
+            android:defaultValue="2"
+            android:inputType="numberDecimal" />
+
+        <EditTextPreference
+            android:key="pref_temp_min"
+            android:title="Minimum Sıcaklık (°C)"
+            android:defaultValue="5"
+            android:inputType="numberSigned" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_night_ride"
+            android:title="Gece Sürüşü İzni"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

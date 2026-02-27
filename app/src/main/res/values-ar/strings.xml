@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">MotoWeather</string>
+
+    <string name="analiz_bekleniyor">جاري التحليل...</string>
+    <string name="veriler_bekleniyor">انتظار البيانات...</string>
+    <string name="konum_bulunuyor">جاري تحديد الموقع...</string>
+    <string name="konum_bilinmiyor">موقع غير معروف</string>
+
+    <string name="label_sicaklik">درجة الحرارة</string>
+    <string name="label_yagmur">المطر</string>
+    <string name="label_nem">الرطوبة</string>
+    <string name="label_ruzgar">الرياح</string>
+    <string name="label_basinc">الضغط</string>
+    <string name="label_hissedilen">المحسوسة: %s</string>
+    <string name="format_min_max">الأدنى: %1$s الأقصى: %2$s</string>
+
+    <string name="label_gun_dogumu">الشروق</string>
+    <string name="label_gun_batimi">الغروب</string>
+    <string name="label_saatlik_tahmin">توقعات كل ساعة</string>
+    <string name="label_5_gunluk">توقعات 5 أيام</string>
+
+    <string name="label_maks_ruzgar">أقصى رياح: %s</string>
+    <string name="label_yagis_ihtimali">احتمال الهطول: %s</string>
+
+    <string name="risk_tehlikeli_baslik">خطر</string>
+    <string name="risk_dikkat_baslik">كن حذرا</string>
+    <string name="risk_uygun_baslik">قيادة ممتعة</string>
+    <string name="durum_yasak">ممنوع</string>
+    <string name="durum_tehlike">خطر</string>
+    <string name="durum_riskli">مخاطرة</string>
+    <string name="durum_dikkat">انتباه</string>
+    <string name="durum_uygun">مناسب</string>
+
+    <string name="unit_c">°C</string>
+    <string name="unit_f">°F</string>
+    <string name="unit_kmh">كم/س</string>
+    <string name="unit_mph">ميل/س</string>
+
+    <string name="ayarlar_baslik">الإعدادات</string>
+    <string name="baslik_surus_seviyesi">مستوى القيادة</string>
+    <string name="hint_duzenle">(اضغط مطولا للتعديل)</string>
+
+    <string name="txt_duzenleniyor">تعديل الملف:</string>
+    <string name="seviye_baslangic">مبتدئ</string>
+    <string name="seviye_orta">متوسط</string>
+    <string name="seviye_ileri">متقدم</string>
+
+    <string name="etiket_ruzgar_kisa">حد الرياح</string>
+    <string name="etiket_yagmur_kisa">حد المطر</string>
+    <string name="etiket_gorus_kisa">الرؤية</string>
+
+    <string name="ayar_gece_izni">السماح بالقيادة الليلية</string>
+    <string name="ayar_buz_koruma">حماية الجليد</string>
+    <string name="ayar_fahrenheit">فهرنهايت (°F)</string>
+    <string name="ayar_12saat">تنسيق 12 ساعة</string>
+    <string name="ayar_tema">السمة (Theme)</string>
+
+    <string name="tema_sistem">النظام</string>
+    <string name="tema_acik">فاتح</string>
+    <string name="tema_koyu">داكن</string>
+
+    <string name="genel_ayarlar">إعدادات عامة</string>
+    <string name="dil_secimi">اللغة / Language</string>
+    <string name="bildirim_saati">الإشعار اليومي:</string>
+    <string name="yasak_saatler">الساعات الممنوعة</string>
+    <string name="baslangic">البداية</string>
+    <string name="bitis">النهاية</string>
+
+    <string name="kaydet_kapat">حفظ الإعدادات</string>
+    <string name="ayarlari_sifirla">إعادة ضبط</string>
+    <string name="iptal">إلغاء</string>
+
+    <string name="hata_konum">الموقع غير موجود، هل الـ GPS مفعل؟</string>
+    <string name="hata_veri">لم يتم استلام البيانات</string>
+
+    <string-array name="msg_pool_tehlike">
+        <item>يا صديقي، اركن الدراجة اليوم ونم. الطقس لا يمزح. 💀</item>
+        <item>الخارج يبدو كيوم القيامة. اذهب بالسيارة أو ابق في المنزل. ⛈️</item>
+        <item>الإطارات ستتجمد والرياح ستصفعك. اليوم ليس مناسبا. ❄️</item>
+    </string-array>
+
+    <string-array name="msg_pool_dikkat">
+        <item>الطقس متقلب قليلا. قد بحذر ولا تنعطف بقوة. ⚠️</item>
+        <item>الطرق قد تكون زلقة، خفف استخدام الفرامل الأمامية. 💧</item>
+        <item>الرياح قد تهزك قليلا، امسك المقود جيدا لكن لا تتشنج. 💨</item>
+    </string-array>
+
+    <string-array name="msg_pool_keyif">
+        <item>الطرق ملكك يا مدير! انطلق واشعر بالرياح. 🏍️💨</item>
+        <item>طقس مثالي، لمع دراجتك واخرج. كن أنيقا. 😎</item>
+        <item>الإطارات تقبل الأسفلت اليوم. استمتع بالمنعطفات. 🍩</item>
+    </string-array>
+
+    <string name="ekipman_full">الحماية الكاملة ضرورية. ارتد معطف المطر والملابس الحرارية.</string>
+    <string name="ekipman_yagmurluk">خذ معك معطف المطر، وركب بطانة السترة.</string>
+    <string name="ekipman_rahat">المعدات القياسية تكفي. لا تنس الخوذة والقفازات.</string>
+    <string name="uyari_riskli">مخاطرة!</string>
+
+    <string name="dialog_ikon_baslik">أيقونات الطقس</string>
+    <string name="desc_gunesli">مشمس / صافي</string>
+    <string name="desc_parcali">غائم جزئيا</string>
+    <string name="desc_bulutlu">غائم كليا</string>
+    <string name="desc_yagmur">ممطر</string>
+    <string name="desc_saganak">هطول غزير</string>
+    <string name="desc_kar">مثلج</string>
+    <string name="desc_firtina">عاصفة / رعد</string>
+    <string name="desc_sis">ضبابي</string>
+    <string name="btn_kapat">إغلاق</string>
+
+    <string name="rehber_baslik">دليل الأيقونات</string>
+    <string name="rehber_anlasildi">فهمت</string>
+
+    <string name="kat_gokyuzu">-- السماء --</string>
+    <string name="item_gunesli">☀️ ص (صافي/مشمس)</string>
+    <string name="item_acik_gece">🌕 ص (ليل صافي)</string>
+    <string name="item_az_bulutlu">🌤️ غ.ق (غيوم قليلة)</string>
+    <string name="item_az_bulutlu_gece">🌚 غ.ق (ليل قليل الغيوم)</string>
+    <string name="item_parcali">⛅ غ.ج (غائم جزئيا)</string>
+    <string name="item_cok_bulutlu">☁️ غ (غائم/ملبد)</string>
+
+    <string name="kat_yagmur">-- المطر والماء --</string>
+    <string name="item_ciseleme">💧 رذاذ</string>
+    <string name="item_yagmur">☔ مطر</string>
+    <string name="item_bulutlu_yagmur">🌧️ مطر وغيم</string>
+    <string name="item_gunesli_saganak">🌦️ مطر مشمس</string>
+    <string name="item_kuvvetli">⛈️ عاصفة مطرية</string>
+    <string name="item_sel">🌊 خطر الفيضان</string>
+
+    <string name="kat_kis">-- الشتاء والبرد --</string>
+    <string name="item_kar">🌨️ ثلج</string>
+    <string name="item_kar_tanesi">❄️ ندفة ثلج</string>
+    <string name="item_yogun_kar">☃️ ثلج كثيف</string>
+    <string name="item_dondurucu">🥶 تجمد</string>
+    <string name="item_buzlanma">🧊 جليد/صقيع</string>
+    <string name="item_tipi">🌬️ عاصفة ثلجية</string>
+
+    <string name="kat_diger">-- أخرى ومخاطر --</string>
+    <string name="item_sis">🌫️ ضباب</string>
+    <string name="item_pus">🌁 سديم</string>
+    <string name="item_ruzgar">💨 عاصف</string>
+    <string name="item_firtina">🌪️ إعصار</string>
+    <string name="item_simsek">⚡ برق</string>
+    <string name="item_asiri_sicak">🌡️ حر شديد</string>
+
+    <string name="lbl_dil_secenekleri">خيارات اللغة</string>
+    <string name="lbl_gece_surus_yasagi">القيادة الليلية ممنوعة</string>
+    <string name="lbl_gunluk_bildirim">وقت الإشعار اليومي</string>
+
+    <string name="baslik_baslangic_saati">وقت البدء (مساء)</string>
+    <string name="baslik_bitis_saati">وقت الانتهاء (صباحا)</string>
+    <string name="baslik_bildirim_saati">وقت الإشعار</string>
+
+    <string name="panel_duzenlenen">تم التعديل: %s</string>
+    <string name="panel_ruzgar">حد الرياح</string>
+    <string name="panel_yagmur">حد المطر</string>
+    <string name="panel_gorus">حد الرؤية</string>
+    <string name="btn_kapat_panel">إغلاق اللوحة</string>
+
+    <string-array name="level_names">
+        <item>مبتدئ</item>
+        <item>متوسط</item>
+        <item>متقدم (محترف)</item>
+        <item>مخصص</item>
+    </string-array>
+
+    <string-array name="level_values">
+        <item>beginner</item>
+        <item>intermediate</item>
+        <item>expert</item>
+        <item>custom</item>
+    </string-array>
+
+    <string name="adv_title_danger">لا داعي للمغامرة يا بطل</string>
+    <string name="adv_body_danger_general">القيادة في هذا الطقس ليست شجاعة بل جنون. تحليل الخطر: خطير. اركن الدراجة اليوم.</string>
+    <string name="adv_body_danger_wind">🌪️ عاصفة قادمة! الدراجة لن تثبت في المسار مع هذه الرياح. لا تخرج.</string>
+    <string name="adv_body_danger_ice">🧊 الطرق جليدية! خطر الانزلاق عال جدا. اشرب الشاي وارتح.</string>
+    <string name="adv_body_danger_storm">⛈️ إنها القيامة! مطر غزير ورياح. لا تخاطر بحياتك.</string>
+
+    <string name="adv_title_safe">رافقتك السلامة</string>
+    <string name="adv_title_cold_freeze">الإطارات تحجرت 🥶</string>
+    <string name="adv_body_cold_freeze">⚠️ انتباه: الإطارات لن تسخن! التماسك ضعيف، تجنب الحركات المفاجئة. الملابس الحرارية و Pinlock ضرورية.</string>
+
+    <string name="adv_title_cold">تدفأ جيدا وإلا ستمرض</string>
+    <string name="adv_body_cold">🧥 الجو بارد. لا تنس غطاء الرقبة (Buff). الإطارات تسخن ببطء، انتبه.</string>
+
+    <string name="adv_title_perfect">طقس مثالي للقيادة! 🏍️</string>
+    <string name="adv_body_perfect">🌡️ الحرارة أسطورية. ارتد معداتك واستمتع.</string>
+
+    <string name="adv_title_warm">أخرج المعدات الصيفية</string>
+    <string name="adv_body_warm">☀️ الجو يسخن. اختر سترة صيفية وقفازات شبكية. لا تبق القناع مفتوحا (الحشرات).</string>
+
+    <string name="adv_title_hot">الجو يشتعل 🔥</string>
+    <string name="adv_body_hot">⚠️ الأسفلت قد يذوب! لا تقد بقميص خفيف أبدا. اشرب الماء، وأنزل واقي الشمس.</string>
+
+    <string name="adv_title_wet">إنذار أرضية مبللة 🌧️</string>
+    <string name="adv_body_wet">🚧 الأرض مبللة. ابتعد عن الخطوط البيضاء وأغطية الصرف. ارتد معطف المطر.</string>
+    <string name="adv_body_wet_light">☁️ قد يمر مطر خفيف. الأسفلت يكون أكثر انزلاقا عند أول قطرات، انتبه.</string>
+
+    <string name="adv_title_wind">لا تصارع الرياح 💨</string>
+    <string name="adv_body_wind_strong">💨 رياح قوية! امسك الخزان بركبتيك بقوة. أرخ جسمك العلوي.</string>
+    <string name="adv_body_wind_light">🌬️ رياح خفيفة، أغلق سحابات سترتك بالكامل.</string>
+
+    <string name="adv_suffix_night"> (الوضع الليلي)</string>
+    <string name="adv_body_night">🌙 قيادة ليلية: كن مرئيا (عواكس). استخدم قناعا شفافا. انتبه للحفر.</string>
+    <string name="adv_body_wish">طريقك مفتوح وخزانك ممتلئ!</string>
+
+    <string name="advice_scooter">رحلة ممتعة بالسكوتر.</string>
+    <string name="advice_racing">سخن الإطارات، المنعطفات بانتظارك!</string>
+    <string name="advice_touring">طقس رائع للسفر الطويل.</string>
+    <string name="advice_cross">يوم جميل لاقتحام الطرق الوعرة.</string>
+    <string name="advice_standard">الجو جميل، ارتد معداتك وانطلق.</string>
+    <string name="label_risk_haritasi">خريطة مخاطر القيادة اليومية</string>
+
+
+    <string name="advice_naked">أنت تقود دراجة Naked، الرياح قد تتعبك. احمِ رقبتك!</string>
+
+</resources>

@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">MotoWeather</string>
+
+    <string name="analiz_bekleniyor">분석 중...</string>
+    <string name="veriler_bekleniyor">데이터 대기 중...</string>
+    <string name="konum_bulunuyor">위치 찾는 중...</string>
+    <string name="konum_bilinmiyor">알 수 없는 위치</string>
+
+    <string name="label_sicaklik">기온</string>
+    <string name="label_yagmur">강수량</string>
+    <string name="label_nem">습도</string>
+    <string name="label_ruzgar">풍속</string>
+    <string name="label_basinc">기압</string>
+    <string name="label_hissedilen">체감 온도: %s</string>
+    <string name="format_min_max">최저: %1$s 최고: %2$s</string>
+
+    <string name="label_gun_dogumu">일출</string>
+    <string name="label_gun_batimi">일몰</string>
+    <string name="label_saatlik_tahmin">시간별 예보</string>
+    <string name="label_5_gunluk">5일 예보</string>
+
+    <string name="label_maks_ruzgar">최대 풍속: %s</string>
+    <string name="label_yagis_ihtimali">강수 확률: %s</string>
+
+    <string name="risk_tehlikeli_baslik">위험</string>
+    <string name="risk_dikkat_baslik">주의 필요</string>
+    <string name="risk_uygun_baslik">즐거운 라이딩</string>
+    <string name="durum_yasak">금지</string>
+    <string name="durum_tehlike">위험</string>
+    <string name="durum_riskli">위험함</string>
+    <string name="durum_dikkat">주의</string>
+    <string name="durum_uygun">적절함</string>
+
+    <string name="unit_c">°C</string>
+    <string name="unit_f">°F</string>
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_mph">mph</string>
+
+    <string name="ayarlar_baslik">설정</string>
+    <string name="baslik_surus_seviyesi">라이딩 레벨</string>
+    <string name="hint_duzenle">(카드를 길게 눌러 수정)</string>
+
+    <string name="txt_duzenleniyor">수정 중인 프로필:</string>
+    <string name="seviye_baslangic">초급</string>
+    <string name="seviye_orta">중급</string>
+    <string name="seviye_ileri">고급</string>
+
+    <string name="etiket_ruzgar_kisa">풍속 제한</string>
+    <string name="etiket_yagmur_kisa">강우 제한</string>
+    <string name="etiket_gorus_kisa">가시거리</string>
+
+    <string name="ayar_gece_izni">야간 주행 허용</string>
+    <string name="ayar_buz_koruma">결빙 방지</string>
+    <string name="ayar_fahrenheit">화씨 (°F)</string>
+    <string name="ayar_12saat">12시간 형식</string>
+    <string name="ayar_tema">테마 모드</string>
+
+    <string name="tema_sistem">시스템</string>
+    <string name="tema_acik">라이트</string>
+    <string name="tema_koyu">다크</string>
+
+    <string name="genel_ayarlar">일반 설정</string>
+    <string name="dil_secimi">언어 / Language</string>
+    <string name="bildirim_saati">매일 알림:</string>
+    <string name="yasak_saatler">금지 시간대</string>
+    <string name="baslangic">시작</string>
+    <string name="bitis">종료</string>
+
+    <string name="kaydet_kapat">설정 저장</string>
+    <string name="ayarlari_sifirla">초기화</string>
+    <string name="iptal">취소</string>
+
+    <string name="hata_konum">위치를 찾을 수 없습니다. GPS가 켜져 있나요?</string>
+    <string name="hata_veri">데이터 수신 실패</string>
+
+    <string-array name="msg_pool_tehlike">
+        <item>친구야, 오늘은 바이크 세워두고 잠이나 자자. 날씨가 장난 아니다. 💀</item>
+        <item>밖은 아수라장이다. 차를 타거나 집에 있어라. ⛈️</item>
+        <item>타이어는 얼고 바람은 때린다. 오늘은 타는 날이 아니다. ❄️</item>
+    </string-array>
+
+    <string-array name="msg_pool_dikkat">
+        <item>날씨가 좀 애매하다. 조심히 타고, 코너에서 무리하지 마라. ⚠️</item>
+        <item>길이 미끄러울 수 있으니 앞 브레이크는 살살 잡아라. 💧</item>
+        <item>바람에 휘청거릴 수 있다. 핸들을 꽉 잡되 팔에 힘은 빼라. 💨</item>
+    </string-array>
+
+    <string-array name="msg_pool_keyif">
+        <item>도로는 네 것이다! 스로틀을 당기고 바람을 느껴라. 🏍️💨</item>
+        <item>완벽한 날씨다. 바이크를 닦고 나가라. 멋지게 타라. 😎</item>
+        <item>오늘 타이어가 도로에 쩍 달라붙는다. 코너를 즐겨라. 🍩</item>
+    </string-array>
+
+    <string name="ekipman_full">완전 무장 필수. 우의와 내복을 입어라.</string>
+    <string name="ekipman_yagmurluk">우의를 챙기고, 재킷 내피를 장착해라.</string>
+    <string name="ekipman_rahat">기본 장비면 충분하다. 헬멧과 장갑은 잊지 마라.</string>
+    <string name="uyari_riskli">위험!</string>
+
+    <string name="dialog_ikon_baslik">날씨 아이콘</string>
+    <string name="desc_gunesli">맑음 / 화창</string>
+    <string name="desc_parcali">구름 조금</string>
+    <string name="desc_bulutlu">흐림</string>
+    <string name="desc_yagmur">비</string>
+    <string name="desc_saganak">소나기/호우</string>
+    <string name="desc_kar">눈</string>
+    <string name="desc_firtina">폭풍 / 천둥</string>
+    <string name="desc_sis">안개 / 박무</string>
+    <string name="btn_kapat">닫기</string>
+
+    <string name="rehber_baslik">아이콘 가이드</string>
+    <string name="rehber_anlasildi">확인</string>
+
+    <string name="kat_gokyuzu">-- 하늘 --</string>
+    <string name="item_gunesli">☀️ 맑 (맑음/화창)</string>
+    <string name="item_acik_gece">🌕 맑 (맑은 밤)</string>
+    <string name="item_az_bulutlu">🌤️ 구조 (구름 조금)</string>
+    <string name="item_az_bulutlu_gece">🌚 구조 (구름 조금 밤)</string>
+    <string name="item_parcali">⛅ 구많 (구름 많음)</string>
+    <string name="item_cok_bulutlu">☁️ 흐 (흐림)</string>
+
+    <string name="kat_yagmur">-- 비 &amp; 물 --</string>
+    <string name="item_ciseleme">💧 이슬비</string>
+    <string name="item_yagmur">☔ 비</string>
+    <string name="item_bulutlu_yagmur">🌧️ 흐리고 비</string>
+    <string name="item_gunesli_saganak">🌦️ 여우비</string>
+    <string name="item_kuvvetli">⛈️ 폭우/호우</string>
+    <string name="item_sel">🌊 홍수 위험</string>
+
+    <string name="kat_kis">-- 겨울 &amp; 추위 --</string>
+    <string name="item_kar">🌨️ 눈</string>
+    <string name="item_kar_tanesi">❄️ 눈송이</string>
+    <string name="item_yogun_kar">☃️ 폭설</string>
+    <string name="item_dondurucu">🥶 혹한</string>
+    <string name="item_buzlanma">🧊 결빙/서리</string>
+    <string name="item_tipi">🌬️ 눈보라</string>
+
+    <string name="kat_diger">-- 기타 &amp; 위험 --</string>
+    <string name="item_sis">🌫️ 안개</string>
+    <string name="item_pus">🌁 박무</string>
+    <string name="item_ruzgar">💨 강풍</string>
+    <string name="item_firtina">🌪️ 폭풍/토네이도</string>
+    <string name="item_simsek">⚡ 번개</string>
+    <string name="item_asiri_sicak">🌡️ 폭염</string>
+
+    <string name="lbl_dil_secenekleri">언어 옵션</string>
+    <string name="lbl_gece_surus_yasagi">야간 주행 금지</string>
+    <string name="lbl_gunluk_bildirim">매일 알림 시간</string>
+
+    <string name="baslik_baslangic_saati">시작 시간 (저녁)</string>
+
+    <string name="baslik_bitis_saati">종료 시간 (아침)</string>
+    <string name="baslik_bildirim_saati">알림 시간</string>
+
+    <string name="panel_duzenlenen">수정됨: %s</string>
+    <string name="panel_ruzgar">풍속 제한</string>
+    <string name="panel_yagmur">강우 제한</string>
+    <string name="panel_gorus">가시거리 제한</string>
+    <string name="btn_kapat_panel">패널 닫기</string>
+
+    <string-array name="level_names">
+        <item>초급 (루키)</item>
+        <item>중급</item>
+        <item>고급 (프로)</item>
+        <item>사용자 지정</item>
+    </string-array>
+
+    <string-array name="level_values">
+        <item>beginner</item>
+        <item>intermediate</item>
+        <item>expert</item>
+        <item>custom</item>
+    </string-array>
+
+    <string name="adv_title_danger">모험하지 마라, 친구</string>
+    <string name="adv_body_danger_general">이런 날씨에 타는 건 용기가 아니라 객기다. 위험 분석: 위험. 오늘 바이크는 세워둬라.</string>
+    <string name="adv_body_danger_wind">🌪️ 폭풍이 온다! 이 바람엔 바이크가 차선에 못 있는다. 절대 나가지 마라.</string>
+    <string name="adv_body_danger_ice">🧊 도로가 빙판이다! 블랙 아이스 위험이 높다. 차나 마시고 쉬어라.</string>
+    <string name="adv_body_danger_storm">⛈️ 세상 끝난 것 같다! 폭우에 강풍이다. 목숨 걸지 마라.</string>
+
+    <string name="adv_title_safe">안전 운전</string>
+    <string name="adv_title_cold_freeze">타이어가 돌덩이다 🥶</string>
+    <string name="adv_body_cold_freeze">⚠️ 주의: 타이어가 예열되지 않는다! 접지력이 낮으니 급조작은 금물이다. 내복과 핀락이 필수다.</string>
+
+    <string name="adv_title_cold">따뜻하게 입어라, 감기 든다</string>
+    <string name="adv_body_cold">🧥 쌀쌀하다. 넥워머(버프) 잊지 마라. 타이어 예열이 늦으니 조심해라.</string>
+
+    <string name="adv_title_perfect">라이딩하기 완벽한 날씨! 🏍️</string>
+    <string name="adv_body_perfect">🌡️ 기온이 환상적이다. 장비 챙겨 입고 즐겨라.</string>
+
+    <string name="adv_title_warm">여름 장비를 꺼내라</string>
+    <string name="adv_body_warm">☀️ 날이 풀렸다. 여름 재킷과 메쉬 장갑을 써라. 바이저 열고 다니지 마라(벌레 꼬인다).</string>
+
+    <string name="adv_title_hot">날씨가 불탄다 🔥</string>
+    <string name="adv_body_hot">⚠️ 아스팔트가 녹을 수 있다! 반팔 입고 타지 마라. 물 많이 마시고 선바이저 내려라.</string>
+
+    <string name="adv_title_wet">젖은 노면 경보 🌧️</string>
+    <string name="adv_body_wet">🚧 노면 젖음. 차선 페인트와 맨홀 뚜껑을 피해라. 우의 입어라.</string>
+    <string name="adv_body_wet_light">☁️ 약한 비가 지나간다. 비가 막 시작될 때 아스팔트가 제일 미끄럽다. 주의.</string>
+
+    <string name="adv_title_wind">바람과 싸우지 마라 💨</string>
+    <string name="adv_body_wind_strong">💨 강풍이다! 니그립으로 탱크를 꽉 잡아라. 상체 힘은 빼라.</string>
+    <string name="adv_body_wind_light">🌬️ 약한 바람이다. 재킷 지퍼를 끝까지 올려라.</string>
+
+    <string name="adv_suffix_night"> (야간 모드)</string>
+    <string name="adv_body_night">🌙 야간 주행: 눈에 띄게 입어라(반사재). 클리어 쉴드 써라. 포트홀 조심해라.</string>
+    <string name="adv_body_wish">길은 뚫리고 기름은 가득하길!</string>
+
+    <string name="advice_scooter">스쿠터 타기 딱 좋은 날씨네요.</string>
+    <string name="advice_racing">타이어 예열해, 코너가 널 기다린다!</string>
+    <string name="advice_touring">장거리 투어 가기 기막힌 날씨.</string>
+    <string name="advice_cross">오프로드 뛰기 좋은 날이다.</string>
+    <string name="advice_standard">날씨 좋다, 장비 챙겨 입고 나가자.</string>
+    <string name="label_risk_haritasi">일일 운전 위험 지도</string>
+
+
+    <string name="advice_naked">네이키드 바이크는 바람을 많이 맞습니다. 목을 보호하세요!</string>
+
+
+</resources>

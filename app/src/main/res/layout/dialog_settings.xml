@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_bottom_sheet"
+    android:paddingBottom="30dp">
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:background="#404040"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#606060"/>
+
+    <TextView
+        android:id="@+id/lblAyarlarBaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ayarlar_baslik"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="25dp">
+
+            <TextView
+                android:id="@+id/lblSurusSeviyesi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/baslik_surus_seviyesi"
+                android:textColor="#AAAAAA"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/lblHintDuzenle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_duzenle"
+                android:textColor="#555555"
+                android:textSize="11sp"
+                android:layout_marginBottom="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_marginBottom="30dp">
+
+                <LinearLayout
+                    android:id="@+id/cardBaslangic"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:background="@drawable/bg_card_rounded"
+                    android:backgroundTint="#2C2C2C"
+                    android:layout_marginEnd="10dp">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/xp_baslangic" android:layout_marginBottom="10dp"/>
+                    <TextView android:id="@+id/lblSeviyeBaslangic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seviye_baslangic" android:textSize="12sp" android:textStyle="bold" android:textColor="#DDD"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardOrta"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:background="@drawable/bg_card_rounded"
+                    android:backgroundTint="#2C2C2C"
+                    android:layout_marginEnd="10dp">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/xp_orta" android:layout_marginBottom="10dp"/>
+                    <TextView android:id="@+id/lblSeviyeOrta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seviye_orta" android:textSize="12sp" android:textStyle="bold" android:textColor="#DDD"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardIleri"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:background="@drawable/bg_card_rounded"
+                    android:backgroundTint="#2C2C2C">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/xp_ileri" android:layout_marginBottom="10dp"/>
+                    <TextView android:id="@+id/lblSeviyeIleri" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seviye_ileri" android:textSize="12sp" android:textStyle="bold" android:textColor="#DDD"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutGizliAyarlar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card_rounded"
+                android:backgroundTint="#1A1A1A"
+                android:padding="20dp"
+                android:visibility="gone"
+                android:layout_marginBottom="30dp">
+
+                <TextView android:id="@+id/txtDuzenlenenProfil" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/txt_duzenleniyor" android:textColor="#FF6200" android:textStyle="bold" android:textSize="16sp" android:layout_marginBottom="15dp"/>
+
+                <TextView android:id="@+id/txtRuzgarInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/etiket_ruzgar_kisa" android:textColor="#AAA" android:textSize="12sp"/>
+                <SeekBar android:id="@+id/seekRuzgar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progressTint="#FF6200" android:thumbTint="#FF6200"/>
+
+                <TextView android:id="@+id/txtYagmurInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/etiket_yagmur_kisa" android:textColor="#AAA" android:textSize="12sp" android:layout_marginTop="15dp"/>
+                <SeekBar android:id="@+id/seekYagmur" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progressTint="#2196F3" android:thumbTint="#2196F3"/>
+
+                <TextView android:id="@+id/txtGorusInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/etiket_gorus_kisa" android:textColor="#AAA" android:textSize="12sp" android:layout_marginTop="15dp"/>
+                <SeekBar android:id="@+id/seekGorus" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="20" android:progressTint="#4CAF50" android:thumbTint="#4CAF50"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnKapatGizli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/btn_kapat_panel"
+                    android:backgroundTint="#333"
+                    android:textColor="#FFF"
+                    android:textSize="12sp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lblGenelAyarlar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genel_ayarlar"
+                android:textColor="#AAAAAA"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card_rounded"
+                android:backgroundTint="#2C2C2C"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="15dp"
+                android:layout_marginBottom="20dp">
+
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="60dp">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_centerVertical="true">
+                        <TextView android:id="@+id/lblGunlukBildirim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_gunluk_bildirim" android:textColor="#FFFFFF" android:textSize="16sp"/>
+                        <TextView android:id="@+id/lblAlarmSaati" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="09:00" android:textColor="#FF6200" android:textSize="12sp" android:layout_marginTop="2dp"/>
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/btnAlarmIcon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@android:drawable/ic_menu_agenda"
+                        app:tint="#666"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"/>
+                </RelativeLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#3A3A3A"/>
+
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="60dp">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_centerVertical="true">
+                        <TextView android:id="@+id/lblGeceYasagi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_gece_surus_yasagi" android:textColor="#FFFFFF" android:textSize="16sp"/>
+                        <TextView android:id="@+id/lblGeceSaatleri" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="22:00 - 06:00" android:textColor="#FF6200" android:textSize="12sp" android:layout_marginTop="2dp"/>
+                    </LinearLayout>
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/swGeceModu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#3A3A3A"/>
+
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="60dp">
+                    <TextView android:id="@+id/lblFahrenheit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ayar_fahrenheit" android:textColor="#FFFFFF" android:textSize="16sp" android:layout_centerVertical="true"/>
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/swFahrenheit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#3A3A3A"/>
+
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="60dp">
+                    <TextView android:id="@+id/lbl12Saat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ayar_12saat" android:textColor="#FFFFFF" android:textSize="16sp" android:layout_centerVertical="true"/>
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/sw12Saat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#3A3A3A"/>
+
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="60dp">
+                    <TextView android:id="@+id/lblBuzKoruma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ayar_buz_koruma" android:textColor="#FFFFFF" android:textSize="16sp" android:layout_centerVertical="true"/>
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/swBuzKoruma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lblDilSecenekleri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_dil_secenekleri"
+                android:textColor="#AAAAAA"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/btnDilSecimi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp"
+                android:background="@drawable/bg_card_rounded"
+                android:backgroundTint="#2C2C2C"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@android:drawable/ic_menu_mapmode" app:tint="#FF6200" android:layout_marginEnd="20dp"/>
+                <TextView android:id="@+id/txtSeciliDil" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Türkçe" android:textColor="#FFFFFF" android:textSize="16sp"/>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@android:drawable/arrow_down_float" app:tint="#AAAAAA"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btnSifirla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ayarlari_sifirla"
+                android:textColor="#FF4444"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKaydet"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/kaydet_kapat"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                app:backgroundTint="#FF6200"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

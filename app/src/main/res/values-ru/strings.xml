@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">MotoWeather</string>
+
+    <string name="analiz_bekleniyor">Анализ...</string>
+    <string name="veriler_bekleniyor">Ожидание данных...</string>
+    <string name="konum_bulunuyor">Поиск местоположения...</string>
+    <string name="konum_bilinmiyor">НЕИЗВЕСТНО</string>
+
+    <string name="label_sicaklik">Температура</string>
+    <string name="label_yagmur">Дождь</string>
+    <string name="label_nem">Влажность</string>
+    <string name="label_ruzgar">Ветер</string>
+    <string name="label_basinc">Давление</string>
+    <string name="label_hissedilen">Ощущается: %s</string>
+    <string name="format_min_max">Мин: %1$s Макс: %2$s</string>
+
+    <string name="label_gun_dogumu">Восход</string>
+    <string name="label_gun_batimi">Закат</string>
+    <string name="label_saatlik_tahmin">Почасовой прогноз</string>
+    <string name="label_5_gunluk">Прогноз на 5 дней</string>
+
+    <string name="label_maks_ruzgar">Макс. ветер: %s</string>
+    <string name="label_yagis_ihtimali">Осадки: %s</string>
+
+    <string name="risk_tehlikeli_baslik">ОПАСНО</string>
+    <string name="risk_dikkat_baslik">БУДЬ ОСТОРОЖЕН</string>
+    <string name="risk_uygun_baslik">ПРИЯТНОЙ ПОЕЗДКИ</string>
+    <string name="durum_yasak">ЗАПРЕЩЕНО</string>
+    <string name="durum_tehlike">ОПАСНОСТЬ</string>
+    <string name="durum_riskli">РИСКОВАННО</string>
+    <string name="durum_dikkat">ВНИМАНИЕ</string>
+    <string name="durum_uygun">ПОДХОДИТ</string>
+
+    <string name="unit_c">°C</string>
+    <string name="unit_f">°F</string>
+    <string name="unit_kmh">км/ч</string>
+    <string name="unit_mph">миль/ч</string>
+
+    <string name="ayarlar_baslik">Настройки</string>
+    <string name="baslik_surus_seviyesi">Уровень вождения</string>
+    <string name="hint_duzenle">(Удерживайте карту для редактирования)</string>
+
+    <string name="txt_duzenleniyor">Редактирование:</string>
+    <string name="seviye_baslangic">Новичок</string>
+    <string name="seviye_orta">Средний</string>
+    <string name="seviye_ileri">Опытный</string>
+
+    <string name="etiket_ruzgar_kisa">Лимит ветра</string>
+    <string name="etiket_yagmur_kisa">Лимит дождя</string>
+    <string name="etiket_gorus_kisa">Видимость</string>
+
+    <string name="ayar_gece_izni">Разрешить ночную езду</string>
+    <string name="ayar_buz_koruma">Защита от льда</string>
+    <string name="ayar_fahrenheit">Фаренгейт (°F)</string>
+    <string name="ayar_12saat">12-часовой формат</string>
+    <string name="ayar_tema">Тема</string>
+
+    <string name="tema_sistem">Системная</string>
+    <string name="tema_acik">Светлая</string>
+    <string name="tema_koyu">Темная</string>
+
+    <string name="genel_ayarlar">Общие настройки</string>
+    <string name="dil_secimi">Язык / Language</string>
+    <string name="bildirim_saati">Ежедневное уведомление:</string>
+    <string name="yasak_saatler">Запрещенные часы</string>
+    <string name="baslangic">Начало</string>
+    <string name="bitis">Конец</string>
+
+    <string name="kaydet_kapat">СОХРАНИТЬ</string>
+    <string name="ayarlari_sifirla">Сброс</string>
+    <string name="iptal">Отмена</string>
+
+    <string name="hata_konum">Местоположение не найдено, GPS включен?</string>
+    <string name="hata_veri">Данные не получены</string>
+
+    <string-array name="msg_pool_tehlike">
+        <item>Дружище, оставь байк сегодня и поспи. С погодой шутки плохи. 💀</item>
+        <item>На улице апокалипсис. Езжай на машине или сиди дома. ⛈️</item>
+        <item>Шины замерзнут, ветер сдует. Сегодня не тот день. ❄️</item>
+    </string-array>
+
+    <string-array name="msg_pool_dikkat">
+        <item>Погода капризная. Едь осторожно, не закладывай в поворотах. ⚠️</item>
+        <item>Дороги могут быть скользкими, помягче с передним тормозом. 💧</item>
+        <item>Ветер может потрясти, держи руль крепко, но не напрягайся. 💨</item>
+    </string-array>
+
+    <string-array name="msg_pool_keyif">
+        <item>Дороги твои, друг! Газуй и чувствуй ветер. 🏍️💨</item>
+        <item>Погода идеальная, наполируй байк и выезжай. Будь на стиле. 😎</item>
+        <item>Шины целуют асфальт сегодня. Наслаждайся поворотами. 🍩</item>
+    </string-array>
+
+    <string name="ekipman_full">Нужна полная защита. Надевай дождевик и термобелье.</string>
+    <string name="ekipman_yagmurluk">Возьми дождевик, пристегни подкладку куртки.</string>
+    <string name="ekipman_rahat">Стандартной экипировки достаточно. Не забудь шлем и перчатки.</string>
+    <string name="uyari_riskli">РИСКОВАННО!</string>
+
+    <string name="dialog_ikon_baslik">Иконки погоды</string>
+    <string name="desc_gunesli">Солнечно / Ясно</string>
+    <string name="desc_parcali">Переменная облачность</string>
+    <string name="desc_bulutlu">Облачно</string>
+    <string name="desc_yagmur">Дождь</string>
+    <string name="desc_saganak">Ливень</string>
+    <string name="desc_kar">Снег</string>
+    <string name="desc_firtina">Гроза / Шторм</string>
+    <string name="desc_sis">Туман</string>
+    <string name="btn_kapat">Закрыть</string>
+
+    <string name="rehber_baslik">Гид по иконкам</string>
+    <string name="rehber_anlasildi">ПОНЯТНО</string>
+
+    <string name="kat_gokyuzu">-- НЕБО --</string>
+    <string name="item_gunesli">☀️ Я (Ясно/Солнечно)</string>
+    <string name="item_acik_gece">🌕 Я (Ясная ночь)</string>
+    <string name="item_az_bulutlu">🌤️ МО (Малооблачно)</string>
+    <string name="item_az_bulutlu_gece">🌚 МО (Малооблачная ночь)</string>
+    <string name="item_parcali">⛅ ПО (Перем. облачность)</string>
+    <string name="item_cok_bulutlu">☁️ О (Облачно/Пасмурно)</string>
+
+    <string name="kat_yagmur">-- ДОЖДЬ И ВОДА --</string>
+    <string name="item_ciseleme">💧 М (Морось)</string>
+    <string name="item_yagmur">☔ Д (Дождь)</string>
+    <string name="item_bulutlu_yagmur">🌧️ ПД (Пасмурно и дождь)</string>
+    <string name="item_gunesli_saganak">🌦️ СЛ (Слепой дождь)</string>
+    <string name="item_kuvvetli">⛈️ СД (Сильный дождь/Гроза)</string>
+    <string name="item_sel">🌊 Н (Риск наводнения)</string>
+
+    <string name="kat_kis">-- ЗИМА И ХОЛОД --</string>
+    <string name="item_kar">🌨️ С (Снег)</string>
+    <string name="item_kar_tanesi">❄️ СН (Снежинки)</string>
+    <string name="item_yogun_kar">☃️ СГ (Снегопад)</string>
+    <string name="item_dondurucu">🥶 Х (Холод/Мороз)</string>
+    <string name="item_buzlanma">🧊 Л (Гололед)</string>
+    <string name="item_tipi">🌬️ М (Метель)</string>
+
+    <string name="kat_diger">-- ДРУГОЕ И РИСКИ --</string>
+    <string name="item_sis">🌫️ Т (Туман)</string>
+    <string name="item_pus">🌁 Д (Дымка)</string>
+    <string name="item_ruzgar">💨 В (Ветрено)</string>
+    <string name="item_firtina">🌪️ ШТ (Шторм/Ураган)</string>
+    <string name="item_simsek">⚡ МОЛ (Молния)</string>
+    <string name="item_asiri_sicak">🌡️ Ж (Жара)</string>
+
+    <string name="lbl_dil_secenekleri">Языковые настройки</string>
+    <string name="lbl_gece_surus_yasagi">Ночная езда запрещена</string>
+    <string name="lbl_gunluk_bildirim">Время уведомления</string>
+
+    <string name="baslik_baslangic_saati">Время начала (Вечер)</string>
+    <string name="baslik_bitis_saati">Время окончания (Утро)</string>
+    <string name="baslik_bildirim_saati">Время уведомления</string>
+
+    <string name="advice_scooter">Приятной поездки на скутере.</string>
+    <string name="advice_racing">Грей резину, повороты ждут тебя!</string>
+    <string name="advice_touring">Отличная погода для дальняка.</string>
+    <string name="advice_cross">Хороший день для бездорожья.</string>
+    <string name="advice_standard">Погода супер, надевай экип и выезжай.</string>
+
+
+    <string name="panel_duzenlenen">Изменено: %s</string>
+    <string name="panel_ruzgar">Ограничение ветра</string>
+    <string name="panel_yagmur">Ограничение дождя</string>
+    <string name="panel_gorus">Ограничение видимости</string>
+    <string name="btn_kapat_panel">ЗАКРЫТЬ ПАНЕЛЬ</string>
+
+    <string-array name="level_names">
+        <item>Новичок</item>
+        <item>Средний уровень</item>
+        <item>Опытный (Профи)</item>
+        <item>Свой (Настройки)</item>
+    </string-array>
+
+    <string-array name="level_values">
+        <item>beginner</item>
+        <item>intermediate</item>
+        <item>expert</item>
+        <item>custom</item>
+    </string-array>
+
+    <string name="adv_title_danger">Не ищи приключений, чемпион</string>
+    <string name="adv_body_danger_general">Езда в такую погоду — это не смелость, а безумие. Анализ риска: ОПАСНО. Оставь байк сегодня.</string>
+    <string name="adv_body_danger_wind">🌪️ Шторм надвигается! На таком ветру байк не удержать в полосе. Точно не выезжай.</string>
+    <string name="adv_body_danger_ice">🧊 Дороги как каток! Высокий риск черного льда. Пей чай, отдыхай.</string>
+    <string name="adv_body_danger_storm">⛈️ Просто апокалипсис! Ливень и ветер. Не рискуй жизнью.</string>
+
+    <string name="adv_title_safe">Ровной дороги</string>
+    <string name="adv_title_cold_freeze">Шины превратились в камень 🥶</string>
+    <string name="adv_body_cold_freeze">⚠️ ВНИМАНИЕ: Шины не прогреются! Сцепление плохое, избегай резких движений. Термобелье и пинлок обязательны.</string>
+
+    <string name="adv_title_cold">Одевайся теплее, простудишься</string>
+    <string name="adv_body_cold">🧥 Прохладно. Не забудь бафф. Шины греются медленно, будь осторожен.</string>
+
+    <string name="adv_title_perfect">Идеальная погода для покатушек! 🏍️</string>
+    <string name="adv_body_perfect">🌡️ Температура — сказка. Надевай экип и наслаждайся.</string>
+
+    <string name="adv_title_warm">Доставай летнюю экипировку</string>
+    <string name="adv_body_warm">☀️ Теплеет. Выбирай летнюю куртку и перчатки-сетку. Не держи визор открытым (насекомые).</string>
+
+    <string name="adv_title_hot">Погода — огонь 🔥</string>
+    <string name="adv_body_hot">⚠️ Асфальт может плавиться! Никаких футболок. Пей больше воды, опусти солнцезащитный визор.</string>
+
+    <string name="adv_title_wet">Тревога: Мокрый асфальт 🌧️</string>
+    <string name="adv_body_wet">🚧 МОКРО. Держись подальше от разметки и люков. Надевай дождевик.</string>
+    <string name="adv_body_wet_light">☁️ Возможен небольшой дождь. Асфальт самый скользкий при первых каплях, внимание.</string>
+
+    <string name="adv_title_wind">Не борись с ветром 💨</string>
+    <string name="adv_body_wind_strong">💨 Сильный ветер! Сжимай бак коленями. Расслабь руки и тело.</string>
+    <string name="adv_body_wind_light">🌬️ Легкий ветер, застегни куртку полностью.</string>
+
+    <string name="adv_suffix_night"> (Ночной режим)</string>
+    <string name="adv_body_night">🌙 Ночная езда: Будь заметным (светоотражатели). Прозрачный визор. Берегись ям.</string>
+    <string name="adv_body_wish">Свободной дороги и полного бака!</string>
+    <string name="label_risk_haritasi">Ежедневная карта рисков вождения</string>
+
+
+    <string name="advice_naked">Ты на нейкеде, ветер может утомить. Береги шею!</string>
+
+</resources>

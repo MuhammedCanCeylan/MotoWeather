@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#B9BBBE</color>
+    <color name="text_gray">#B9BBBE</color>
+    <color name="green_700">#3BA55C</color>
+    <color name="yazi_baslik">#FFFFFF</color>
+    <color name="yazi_detay">#DCDDDE</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="bg_main_start">#36393F</color>
+    <color name="bg_main_end">#2F3136</color>
+    <color name="bg_dark_panel">#202225</color>
+    <color name="kart_arka_plan">#2F3136</color>
+    <color name="ana_arka_plan">#36393F</color>
+    <color name="status_green">#3BA55C</color>
+    <color name="status_yellow">#FAA61A</color>
+    <color name="bg_app_dark">#202225</color>
+    <color name="bg_card_dark">#2F3136</color>
+
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#5865F2</color> <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="dark_blue_top">#202225</color>    <color name="light_blue_bottom">#2F3136</color> <color name="btn_active">#5865F2</color>
+    <color name="btn_passive">#4F545C</color>
+    <color name="btn_save_green">#3BA55C</color>
+    <color name="save_green">#3BA55C</color>
+    <color name="status_red">#ED4245</color>
+    <color name="durum_yesil">#3BA55C</color>
+    <color name="durum_sari">#FAA61A</color>
+    <color name="durum_turuncu">#FAA61A</color>
+    <color name="durum_kirmizi">#ED4245</color>
+
+    <color name="settings_bg">#202225</color>
+    <color name="card_bg">#2F3136</color>
+    <color name="card_unselected">#36393F</color>
+
+    <color name="text_primary">#DCDDDE</color>
+    <color name="text_secondary">#B9BBBE</color>
+    <color name="text_dark">#FFFFFF</color>
+    <color name="divider">#2F3136</color>
+
+    <color name="weatherBg">#202225</color>
+    <color name="cardBgPrimary">#2F3136</color>
+    <color name="cardBgSecondary">#36393F</color>
+    <color name="cardBgTertiary">#292B2F</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#B9BBBE</color>
+    <color name="textColorTertiary">#72767D</color>
+    <color name="iconTint">#B9BBBE</color>
+    <color name="dividerColor">#36393F</color>
+
+    <color name="sunPathColor">#FAA61A</color>
+    <color name="sunIconTint">#F0B232</color>
+    <color name="risk_uygun">#3BA55C</color>
+    <color name="risk_dikkat">#FAA61A</color>
+    <color name="risk_tehlikeli">#ED4245</color>
+</resources>

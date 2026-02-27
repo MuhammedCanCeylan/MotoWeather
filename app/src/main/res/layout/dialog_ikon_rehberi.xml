@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card_rounded"
+    android:backgroundTint="#222222"
+    android:padding="20dp">
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="4dp"
+        android:background="#555"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rehber_baslik"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/kat_gokyuzu" android:textStyle="bold" android:textColor="#FFC107" android:textSize="13sp" android:layout_marginBottom="5dp"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="☀️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_gunesli" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🌙" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_acik_gece" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🌤️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_az_bulutlu" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🌚" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_az_bulutlu_gece" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="⛅" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_parcali" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="☁️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_cok_bulutlu" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#444" android:layout_marginVertical="10dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/kat_yagmur" android:textStyle="bold" android:textColor="#2196F3" android:textSize="13sp" android:layout_marginBottom="5dp"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="💧" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_ciseleme" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🌧️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_yagmur" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🌦️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_gunesli_saganak" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="☔" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_kuvvetli" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🌊" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_sel" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#444" android:layout_marginVertical="10dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/kat_kis" android:textStyle="bold" android:textColor="#00BCD4" android:textSize="13sp" android:layout_marginBottom="5dp"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🌨️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_kar" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="❄️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_kar_tanesi" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="⛄" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_yogun_kar" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🥶" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_dondurucu" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🧊" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_buzlanma" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#444" android:layout_marginVertical="10dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/kat_diger" android:textStyle="bold" android:textColor="#F44336" android:textSize="13sp" android:layout_marginBottom="5dp"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🌫️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_sis" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🌁" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_pus" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="💨" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_ruzgar" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="⛈️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_firtina" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="⚡" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_simsek" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:gravity="center_vertical">
+                <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="🔥" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_asiri_sicak" android:textColor="#DDD" android:textSize="14sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnKapat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rehber_anlasildi"
+        android:backgroundTint="#444"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
